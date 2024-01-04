@@ -1,0 +1,95 @@
+body {
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  background-size: cover;
+  background-image: url(papers.co-nl45-wood-winter-night-mountain-dark-36-3840x2400-4k-wallpaper.jpg);
+
+  
+}
+
+.card1 {
+  width: 340px;
+  height: 400px;
+  background-image: linear-gradient(163deg, #d0fae2 0%, #ff2f00 100%);
+  border-radius: 22px;
+  transition: all .3s;
+  margin: auto;
+  margin-top: 9%;
+  
+  
+  
+  
+ }
+ 
+ .converter-container {
+
+  width: 340px;
+  height: 400px;
+  background-color: whitesmoke;
+  transition: all .2s;
+  border-radius: 10px;
+
+  
+ }
+ 
+ .converter-container:hover {
+  transform: scale(0.98);
+  border-radius: 22px;
+  
+ }
+ 
+ .card1:hover {
+  box-shadow: 0px 0px 30px 1px whitesmoke;
+ }
+
+h1 {
+  text-align: center;
+  color: #0b0b0b;
+}
+
+.input-container,
+.select-container {
+  margin-bottom: 15px;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #0b0b0b;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 9px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color:black;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:rgb(39, 38, 38);
+}
+
+.result-container {
+  margin-top: 20px;
+  
+  
+}
+#result{
+  color:rgb(0, 0, 0);
+  
+  font-weight: bold;
+}
