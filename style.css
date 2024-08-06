@@ -1,0 +1,184 @@
+body {
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  background-size: cover;
+  background-image: url(papers.co-nl45-wood-winter-night-mountain-dark-36-3840x2400-4k-wallpaper.jpg);
+
+  
+}
+
+.card1 {
+  width: 340px;
+  height: 400px;
+  background-image: linear-gradient(163deg, #d0fae2 0%, #ff2f00 100%);
+  border-radius: 22px;
+  transition: all .3s;
+  margin: auto;
+  margin-top: 9%;
+  
+  
+  
+  
+ }
+ 
+ .converter-container {
+
+  width: 340px;
+  height: 400px;
+  background-color: whitesmoke;
+  transition: all .2s;
+  border-radius: 10px;
+
+  
+ }
+ 
+ .converter-container:hover {
+  transform: scale(0.98);
+  border-radius: 22px;
+  
+ }
+ 
+ .card1:hover {
+  box-shadow: 0px 0px 30px 1px whitesmoke;
+ }
+
+h1 {
+  text-align: center;
+  color: #0b0b0b;
+}
+
+.input-container,
+.select-container {
+  margin-bottom: 15px;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #0b0b0b;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 9px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color:black;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:rgb(39, 38, 38);
+}
+
+.result-container {
+  margin-top: 20px;
+  
+  
+}
+#result{
+  color:rgb(0, 0, 0);
+  
+  font-weight: bold;
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	font-family: sans-serif;
+}
+nav {
+	display: flex;
+	align-items: center;
+	background: #057793;
+	height: 60px;
+	position: relative;
+}
+.icon {
+	cursor: pointer;
+	margin-right: 50px;
+	line-height: 60px;
+}
+.icon span {
+	background: #f00;
+	padding: 7px;
+	border-radius: 50%;
+	color: #fff;
+	vertical-align: top;
+	margin-left: -25px;
+}
+.icon img {
+	display: inline-block;
+	width: 40px;
+	margin-top: 20px;
+}
+.icon:hover {
+	opacity: .7;
+}
+
+.logo {
+	flex: 1;
+	margin-left: 50px;
+	color: #eee;
+	font-size: 20px;
+	font-family: monospace;
+}
+
+.notifi-box {
+	width: 300px;
+	height: 0px;
+	opacity: 0;
+	position: absolute;
+	top: 63px;
+	right: 35px;
+	transition: 1s opacity, 250ms height;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.notifi-box h2 {
+	font-size: 14px;
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+	color: #999;
+}
+.notifi-box h2 span {
+	color: #f00;
+}
+.notifi-item {
+	display: flex;
+	border-bottom: 1px solid #eee;
+	padding: 15px 5px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+.notifi-item:hover {
+	background-color: #eee;
+}
+.notifi-item img {
+	display: block;
+	width: 50px;
+	margin-right: 10px;
+	border-radius: 50%;
+}
+.notifi-item .text h4 {
+	color: #777;
+	font-size: 16px;
+	margin-top: 10px;
+}
+.notifi-item .text p {
+	color: #aaa;
+	font-size: 12px;
+}
+

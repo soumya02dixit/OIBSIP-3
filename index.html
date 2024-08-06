@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Temperature Converter</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">< Mausam Ka Haal/></div>
+      <div class="icon" onclick="toggleNotifi()">
+        <img src="img/bell.png" alt="" /> <span>17</span>
+      </div>
+      <div class="notifi-box" id="box">
+        <h2>Notifications <span>17</span></h2>
+        <div class="notifi-item">
+          <img src="img/avatar1.png" alt="img" />
+          <div class="text">
+            <h4>Elias Abdurrahman</h4>
+            <p>@lorem ipsum dolor sit amet</p>
+          </div>
+        </div>
+
+        <div class="notifi-item">
+          <img src="img/avatar2.png" alt="img" />
+          <div class="text">
+            <h4>John Doe</h4>
+            <p>@lorem ipsum dolor sit amet</p>
+          </div>
+        </div>
+
+        <div class="notifi-item">
+          <img src="img/avatar3.png" alt="img" />
+          <div class="text">
+            <h4>Emad Ali</h4>
+            <p>@lorem ipsum dolor sit amet</p>
+          </div>
+        </div>
+
+        <div class="notifi-item">
+          <img src="img/avatar4.png" alt="img" />
+          <div class="text">
+            <h4>Ekram Abu</h4>
+            <p>@lorem ipsum dolor sit amet</p>
+          </div>
+        </div>
+
+        <div class="notifi-item">
+          <img src="img/avatar5.png" alt="img" />
+          <div class="text">
+            <h4>Jane Doe</h4>
+            <p>@lorem ipsum dolor sit amet</p>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="card1">
+      <div class="converter-container">
+        <h1>Temperature Converter</h1>
+        <div class="input-container">
+          <label for="temperature">Enter Temperature:</label>
+          <input
+            type="number"
+            id="temperature"
+            placeholder="Enter temperature..."
+          />
+        </div>
+        <div class="select-container">
+          <label for="fromUnit">From Unit:</label>
+          <select id="fromUnit">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+          </select>
+        </div>
+        <div class="select-container">
+          <label for="toUnit">To Unit:</label>
+          <select id="toUnit">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+          </select>
+        </div>
+        <button onclick="convertTemperature()">Convert</button>
+        <div class="result-container">
+          <p id="result"></p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
